@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Empleo Prueba</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="(empleo | async) as empleo" >
+
+  <ion-card>
+    
+    <img [src]="empleo.image.url" />
+    <ion-card-header>
+      <ion-card-subtitle>Empleo</ion-card-subtitle>
+      <ion-card-title>{{empleo.titulo}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      {{empleo.descripcion}}
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>

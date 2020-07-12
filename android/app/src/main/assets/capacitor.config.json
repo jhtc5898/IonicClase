@@ -1,0 +1,13 @@
+{
+  "appId": "ec.edu.ups.pm.empleos20",
+  "appName": "Empleos",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
